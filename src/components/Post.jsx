@@ -17,6 +17,14 @@ export function Post() {
       <div className={styles.content}>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, quidem minima. Beatae qui esse nemo ab consectetur, cum, reiciendis numquam necessitatibus consequuntur minus dolore ullam! Reiciendis, iusto. Ratione, pariatur ex?
       </div>
+
+      <form className={styles.commentForm}>
+        <strong>Deixe seu feedback</strong>
+        <textarea placeholder='Deixe um comentário' />
+        <footer>
+          <button type='submit'>Publicar</button>
+        </footer>
+      </form>
     </article>
   )
 }
